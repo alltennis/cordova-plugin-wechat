@@ -339,7 +339,7 @@ public class Wechat extends CordovaPlugin {
                ChooseCardFromWXCardPackage.Req req = new ChooseCardFromWXCardPackage.Req();
 
                try {
-                   req.appId = getSavedAppId(cordova.getActivity());
+                   req.appId = getAppId();
                    req.cardType = "INVOICE";
                    req.signType = params.getString("signType");
                    req.cardSign = params.getString("cardSign");
