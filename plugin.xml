@@ -131,6 +131,6 @@
 	<!-- 
 	<framework src="android-build.gradle" custom="true" type="gradleReference" />
         -->
-        <lib-file src="src/android/sdk/wechat-sdk-android-with-mta-5.1.6.jar" target-dir="libs" />
+        <lib-file src="src/android/sdk/wechat-sdk-android-with-mta.jar" />
     </platform>
 </plugin>
